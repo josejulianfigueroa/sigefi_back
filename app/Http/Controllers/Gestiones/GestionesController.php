@@ -56,6 +56,7 @@ class GestionesController extends ApiController
          $resp = EfiIndexModel::where('rut',$rut)->get();
 
          $idcliente=$resp[0]->idcliente;
+         $idcampania=$resp[0]->idcampania;
 
         } else {
         

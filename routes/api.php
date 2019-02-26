@@ -101,24 +101,4 @@ Route::resource('calendarios','Calendarios\CalendariosController',['only'=>['ind
 
 
 
-MAIL_DRIVER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=59372054904a80
-MAIL_PASSWORD=f6c84fe8ad0870
-MAIL_ENCRYPTION=tls
-
-MAIL_DRIVER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=josejulianfigueroa@gmail.com
-MAIL_PASSWORD=yltjsiagljxkfukr
-MAIL_ENCRYPTION=tls
-
-MAIL_DRIVER=smtp
-MAIL_HOST=mail.eficaz.cl
-MAIL_PORT=587
-MAIL_USERNAME=jfigueroa
-MAIL_PASSWORD=Jfigueroa16
-MAIL_ENCRYPTION=tls
 */
